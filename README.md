@@ -1,1 +1,1 @@
-## 0.1.0
+## ubunto 받아서 nginx 설치 Dockerfile 생성
