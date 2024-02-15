@@ -35,7 +35,7 @@ FROM ubuntu:22.04
 RUN apt-get update
 RUN apt-get install -y nginx
 EXPOSE 80
-CMD ["nginx" ,"-g", "demon off";]
+CMD ["nginx" ,"-g", "daemon off";]
 
 $ sudo docker build -t test .
 [+] Building 8.2s (7/7) FINISHED                                           docker:default
